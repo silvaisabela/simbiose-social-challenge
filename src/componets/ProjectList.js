@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import presentationSchema from './ProjectLogic'
 
 class ProjectList extends Component {
 
@@ -6,11 +7,9 @@ class ProjectList extends Component {
         fetch('http://api.salic.cultura.gov.br/v1/projetos/?limit=10')
         .then(function(response){
             response.json()
-            .then((json) => console.log(json))
+            .then((json) => console.log(presentationSchema(json)))
         })
     }
-
-
 
     render(){
         return(

@@ -1,0 +1,22 @@
+.money-row {
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+}
+
+.money-row p {
+    margin: 0;
+}
+
+.money-row-green {
+    background: #d3f0ea;
+    color: #609c92;
+}
+
+.money-row-blue {
+    background: #d3e6f0;
+    color: #5e879b;
+}

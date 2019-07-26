@@ -1,0 +1,11 @@
+.button-primary{
+    border: #ffffff 3px solid;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 4px #f0f0f0;
+    background: #d3e6f0;
+    color: #5c8599;
+}
+

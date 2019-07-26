@@ -1,0 +1,18 @@
+.label{
+    font-weight: bold;
+     color: #ffffff;
+     border-radius: 7px;
+     padding: 5px 20px;
+}
+
+.label p{
+    margin: 0;
+}
+
+.label-green{
+    background: #cae6ae;
+}
+
+.label-gray{
+    background: #cccccc;
+}

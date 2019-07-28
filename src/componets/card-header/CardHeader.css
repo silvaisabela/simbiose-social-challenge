@@ -1,0 +1,36 @@
+.card-header {
+    background: #f5f5f5;
+    border-radius: 20px 20px 0px 0px;
+    height: 110px;
+}
+
+.card-header__content {
+    color: #5c8599;
+    font-weight: bold;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.card-header__content>p {
+    margin: 0;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.card-header__image {
+    margin-top: 15px;
+    background: #ffffff;
+    border: #999999 2px solid;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    box-shadow: 0px 1px 5px 1px #aaaaaa;
+}
+
+.card-header__image>img {
+    width: 40px;
+    height: 40px;
+}

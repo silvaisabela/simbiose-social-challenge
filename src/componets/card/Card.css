@@ -1,0 +1,12 @@
+.card {
+    background: #ffffff;
+    border-radius: 20px;
+    border: #ffffff 3px solid;
+    box-shadow: 3px 3px 10px 1px #aaaaaa;
+    width: 500px;
+}
+
+.card-container {
+    margin: 0 auto;
+    width: 90%;
+}

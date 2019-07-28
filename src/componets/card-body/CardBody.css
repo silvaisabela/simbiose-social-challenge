@@ -1,0 +1,29 @@
+.card-body{
+    width: 90%;
+    margin: auto;
+}
+
+.card-body__title {
+    height: 45px;
+    font-size: 17px;
+}
+
+.card-body__content{
+    margin: 15px 0px;
+}
+.card-body__type {
+    color: #5c8599;
+    margin-top: 5px;
+}
+
+.card-body__content>div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    color: #95bacc;
+}
+
+.card-body__content p {
+    margin: 0;
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.collaborator__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.collaborator {
+    font-weight: bold;
+    color: #5c8599;
+}
+
+.collaborator>p {
+    margin: 10px 0px 7px 0px;
+}

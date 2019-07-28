@@ -11,7 +11,7 @@ function collaborator(props) {
                 <div>
                     <Label text={props.collaborator} fontSize={14} color="gray" />
                 </div>
-                <Button text="Ver todos" type="secundary" />
+                <Button text="Ver todos" type="secundary" image="eye" />
             </div>
         </div>
     )

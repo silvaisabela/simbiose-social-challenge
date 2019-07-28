@@ -7,9 +7,9 @@ function cardFooter() {
         <div className="card-footer">
             <div className="card-footer__content">
                 <div className="card-footer__buttons">
-                    <Button type="primary" />
-                    <Button type="primary" />
-                    <Button type="primary" />
+                    <Button type="primary" image="maximize" />
+                    <Button type="primary" image="user" />
+                    <Button type="primary" image="home" />
                 </div>
                 <Button text="Me escolhe :D" type="primary" />
             </div>

@@ -1,20 +1,38 @@
-.button{
-    border-radius: 10px; 
-    font-size: 20px;
-    font-weight: bold;  
+.button {
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
 }
 
-.button-primary{
+.button-primary {
     background: #d3e6f0;
     color: #5c8599;
     border: #ffffff 3px solid;
     box-shadow: 0px 4px #f0f0f0;
-    padding: 15px;   
+    font-size: 20px;
 }
 
-.button-secundary{
+.button-primary>.button__image {
+    width: 30px;
+    padding: 5px 0px;
+}
+
+.button-primary>div {
+    padding: 15px;
+}
+
+.button-secundary {
     background: #a7cadb;
     border: #7aa7be 3px solid;
     color: #ffffff;
-    padding: 5px 7px;  
+    padding: 5px 7px;
+    font-size: 16px;
+}
+
+.button-secundary>.button__image {
+    width: 20px;
+    margin-right: 10px;
 }

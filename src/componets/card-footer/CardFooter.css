@@ -12,6 +12,6 @@
 
 .card-footer__buttons {
     display: flex;
-    justify-content: space-around;
-    width: 130px;
+    justify-content: space-between;
+    width: 160px;
 }

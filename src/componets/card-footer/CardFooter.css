@@ -1,0 +1,17 @@
+.card-footer {
+    width: 90%;
+    margin: auto;
+}
+
+.card-footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 50px 0px 20px 0px;
+}
+
+.card-footer__buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 130px;
+}

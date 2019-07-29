@@ -15,8 +15,9 @@
 .card-header__content>p {
     margin: 0;
     margin-top: 15px;
+    margin-right: 4px;
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .card-header__image {

@@ -1,0 +1,9 @@
+.project {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-template-columns: 500px 500px;
+    margin: 50px auto;
+    width: 80%;
+}
+

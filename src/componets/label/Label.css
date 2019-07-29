@@ -9,6 +9,9 @@
 .label p{
     margin: 0;
     display: inline;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .label-green{

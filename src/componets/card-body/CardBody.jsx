@@ -2,6 +2,7 @@ import React from 'react'
 import Label from '../label/Label'
 import FundRaising from '../fund-raising/FundRaising'
 import Collaborator from '../collaborator/Collaborator'
+import ellipsis from './CardBodyLogic'
 import './CardBody.css'
 
 function cardBody(props) {
@@ -23,7 +24,7 @@ function cardBody(props) {
                 catched={props.catched}
                 percent={props.percent} />
             <Collaborator
-                collaborator={props.colaborator} />
+                collaborator={ellipsis(props.collaborator)} />
         </div>
     )
 }

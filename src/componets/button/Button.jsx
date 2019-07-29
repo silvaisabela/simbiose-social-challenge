@@ -7,11 +7,11 @@ function button(props) {
         <div>
             <button className={`button button-${props.type}`}>
                 {
-                    props.image != undefined
-                        ? <img className="button__image" src={require(`./${props.image}.png`)} />
+                    props.image !== undefined
+                        ? <img className="button__image" src={require(`./${props.image}.png`)} alt={props.image} />
                         : ""
                 }
-                {props.text != undefined ? <div>{props.text}</div> : ""}
+                {props.text !== undefined ? <div>{props.text}</div> : ""}
             </button>
         </div>
     )
